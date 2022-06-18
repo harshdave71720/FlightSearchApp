@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace FlightSearchApp.Controllers
 {
@@ -7,7 +8,8 @@ namespace FlightSearchApp.Controllers
     [ApiController]
     public class FlightController : ControllerBase
     {
-        public IActionResult UploadProviderFile()
+        [HttpPost("uploadProviderFiles")]
+        public IActionResult UploadProviderFiles(IEnumerable<IFormFile> files)
         {
             return Ok();
         }
