@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSearchApp", "FlightSearchApp\FlightSearchApp.csproj", "{2D6F6E85-FAA2-4579-978D-8D3FDE2293C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSearchApp.Tests", "FlightSearchApp.Tests\FlightSearchApp.Tests.csproj", "{A86E2E36-C6AA-4223-9007-8832A8DE9A85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2D6F6E85-FAA2-4579-978D-8D3FDE2293C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D6F6E85-FAA2-4579-978D-8D3FDE2293C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D6F6E85-FAA2-4579-978D-8D3FDE2293C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86E2E36-C6AA-4223-9007-8832A8DE9A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86E2E36-C6AA-4223-9007-8832A8DE9A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86E2E36-C6AA-4223-9007-8832A8DE9A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86E2E36-C6AA-4223-9007-8832A8DE9A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
